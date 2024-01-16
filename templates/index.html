@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>R Code Generator</title>
+</head>
+<body>
+<h1>R Code Generator</h1>
+<form action="/generate_r_code" method="post">
+<label for="sql">SQL Query:</label>
+<textarea id="sql" name="sql" rows="4" cols="50"></textarea>
+<br>
+<label for="r_method_signatures">R Method Signatures (comma-separated):</label>
+<input type="text" id="r_method_signatures" name="r_method_signatures">
+<br>
+<label for="r_libraries">R Libraries (comma-separated):</label>
+<input type="text" id="r_libraries" name="r_libraries">
+<br>
+<input type="submit" value="Generate R Code">
+</form>
+</body>
+</html>
+
+
